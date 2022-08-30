@@ -1,0 +1,12 @@
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\bin\Debug\4 - Controle de Fluxo.exe.config
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\bin\Debug\4 - Controle de Fluxo.exe
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\bin\Debug\4 - Controle de Fluxo.pdb
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\bin\Debug\4 - Controle de Fluxo.xml
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\obj\Debug\_4___Controle_de_Fluxo.Resources.resources
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\obj\Debug\4 - Controle de Fluxo.vbproj.GenerateResource.cache
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\obj\Debug\4 - Controle de Fluxo.vbproj.CoreCompileInputs.cache
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\obj\Debug\4 - Controle de Fluxo.exe
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\obj\Debug\4 - Controle de Fluxo.xml
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\obj\Debug\4 - Controle de Fluxo.pdb
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\obj\Debug\_4___Controle_de_Fluxo.Frm_Principal_04.resources
+C:\Users\Caleum\source\repos\Aprendendo VB\4 - Controle de Fluxo\obj\Debug\4 - Controle de Fluxo.vbprojAssemblyReference.cache

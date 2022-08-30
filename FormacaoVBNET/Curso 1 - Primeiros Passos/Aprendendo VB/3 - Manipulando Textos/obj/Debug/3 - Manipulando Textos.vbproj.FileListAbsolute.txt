@@ -1,0 +1,12 @@
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\bin\Debug\3 - Manipulando Textos.exe.config
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\bin\Debug\3 - Manipulando Textos.exe
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\bin\Debug\3 - Manipulando Textos.pdb
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\bin\Debug\3 - Manipulando Textos.xml
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\obj\Debug\_3___Manipulando_Textos.Frm_Principal_03.resources
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\obj\Debug\_3___Manipulando_Textos.Resources.resources
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\obj\Debug\3 - Manipulando Textos.vbproj.GenerateResource.cache
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\obj\Debug\3 - Manipulando Textos.vbproj.CoreCompileInputs.cache
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\obj\Debug\3 - Manipulando Textos.exe
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\obj\Debug\3 - Manipulando Textos.xml
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\obj\Debug\3 - Manipulando Textos.pdb
+C:\Users\Caleum\source\repos\Aprendendo VB\3 - Manipulando Textos\obj\Debug\3 - Manipulando Textos.vbprojAssemblyReference.cache
