@@ -25,3 +25,30 @@ C:\Users\lsantafosta\Documents\NetCoreWebAPI\FilmesApi\obj\Debug\net6.0\refint\F
 C:\Users\lsantafosta\Documents\NetCoreWebAPI\FilmesApi\obj\Debug\net6.0\FilmesApi.pdb
 C:\Users\lsantafosta\Documents\NetCoreWebAPI\FilmesApi\obj\Debug\net6.0\FilmesApi.genruntimeconfig.cache
 C:\Users\lsantafosta\Documents\NetCoreWebAPI\FilmesApi\obj\Debug\net6.0\ref\FilmesApi.dll
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\appsettings.json
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\FilmesApi.exe
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\FilmesApi.deps.json
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\FilmesApi.runtimeconfig.json
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\FilmesApi.dll
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\FilmesApi.pdb
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.csproj.AssemblyReference.cache
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.AssemblyInfoInputs.cache
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.AssemblyInfo.cs
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.csproj.CoreCompileInputs.cache
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\scopedcss\bundle\FilmesApi.styles.css
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.csproj.CopyComplete
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.dll
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\refint\FilmesApi.dll
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.pdb
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\FilmesApi.genruntimeconfig.cache
+C:\Users\lsantafosta\Documents\Alura\Alura\ASP.Net Core\FilmesApi\obj\Debug\net6.0\ref\FilmesApi.dll

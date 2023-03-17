@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lsantafosta\\Documents\\NetCoreWebAPI\\FilmesApi\\FilmesApi.csproj": {}
+    "C:\\Users\\lsantafosta\\Documents\\Alura\\Alura\\ASP.Net Core\\FilmesApi\\FilmesApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lsantafosta\\Documents\\NetCoreWebAPI\\FilmesApi\\FilmesApi.csproj": {
+    "C:\\Users\\lsantafosta\\Documents\\Alura\\Alura\\ASP.Net Core\\FilmesApi\\FilmesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lsantafosta\\Documents\\NetCoreWebAPI\\FilmesApi\\FilmesApi.csproj",
+        "projectUniqueName": "C:\\Users\\lsantafosta\\Documents\\Alura\\Alura\\ASP.Net Core\\FilmesApi\\FilmesApi.csproj",
         "projectName": "FilmesApi",
-        "projectPath": "C:\\Users\\lsantafosta\\Documents\\NetCoreWebAPI\\FilmesApi\\FilmesApi.csproj",
+        "projectPath": "C:\\Users\\lsantafosta\\Documents\\Alura\\Alura\\ASP.Net Core\\FilmesApi\\FilmesApi.csproj",
         "packagesPath": "C:\\Users\\lsantafosta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lsantafosta\\Documents\\NetCoreWebAPI\\FilmesApi\\obj\\",
+        "outputPath": "C:\\Users\\lsantafosta\\Documents\\Alura\\Alura\\ASP.Net Core\\FilmesApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
