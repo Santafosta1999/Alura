@@ -19,11 +19,11 @@ builder.Services.AddDbContext<ScreenSoundContext>((options) => {
             .UseLazyLoadingProxies();
 });
 
-builder.Services.AddAuthorization();
-
 builder.Services
     .AddIdentityApiEndpoints<PessoaComAcesso>()
     .AddEntityFrameworkStores<ScreenSoundContext>();
+
+builder.Services.AddAuthorization();
 
 
 builder.Services.AddTransient<DAL<Artista>>();
@@ -50,12 +50,19 @@ var app = builder.Build();
 app.UseCors("wasm");
 
 app.UseStaticFiles();
+app.UseAuthorization();
 
 app.AddEndPointsArtistas();
 app.AddEndPointsMusicas();
 app.AddEndPointGeneros();
 
-app.MapGroup("/auth").MapIdentityApi<PessoaComAcesso>().WithTags("Autenticação");
+app.MapGroup("auth").MapIdentityApi<PessoaComAcesso>().WithTags("Autorização");
+
+app.MapPost("auth/logout", async ([FromServices] SignInManager<PessoaComAcesso> signInManager) =>
+{
+    await signInManager.SignOutAsync();
+    return Results.Ok();
+}).RequireAuthorization().WithTags("Autorização");
 
 app.UseSwagger();
 app.UseSwaggerUI();

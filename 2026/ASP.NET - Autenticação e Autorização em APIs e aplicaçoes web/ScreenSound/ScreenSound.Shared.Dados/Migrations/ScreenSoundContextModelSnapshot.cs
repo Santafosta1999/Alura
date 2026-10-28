@@ -37,7 +37,7 @@ namespace ScreenSound.Migrations
 
                     b.HasIndex("MusicasId");
 
-                    b.ToTable("GeneroMusica", (string)null);
+                    b.ToTable("GeneroMusica");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -165,7 +165,7 @@ namespace ScreenSound.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Artistas", (string)null);
+                    b.ToTable("Artistas");
                 });
 
             modelBuilder.Entity("ScreenSound.Modelos.Musica", b =>
@@ -190,7 +190,7 @@ namespace ScreenSound.Migrations
 
                     b.HasIndex("ArtistaId");
 
-                    b.ToTable("Musicas", (string)null);
+                    b.ToTable("Musicas");
                 });
 
             modelBuilder.Entity("ScreenSound.Shared.Dados.Modelos.PerfilDeAcesso", b =>
@@ -291,6 +291,22 @@ namespace ScreenSound.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("ScreenSound.Shared.Modelos.Modelos.AvaliacaoArtista", b =>
+                {
+                    b.Property<int>("ArtistaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PessoaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Nota")
+                        .HasColumnType("int");
+
+                    b.HasKey("ArtistaId", "PessoaId");
+
+                    b.ToTable("AvaliacaoArtistas");
+                });
+
             modelBuilder.Entity("ScreenSound.Shared.Modelos.Modelos.Genero", b =>
                 {
                     b.Property<int>("Id")
@@ -307,7 +323,7 @@ namespace ScreenSound.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Generos", (string)null);
+                    b.ToTable("Generos");
                 });
 
             modelBuilder.Entity("GeneroMusica", b =>
@@ -385,8 +401,21 @@ namespace ScreenSound.Migrations
                     b.Navigation("Artista");
                 });
 
+            modelBuilder.Entity("ScreenSound.Shared.Modelos.Modelos.AvaliacaoArtista", b =>
+                {
+                    b.HasOne("ScreenSound.Modelos.Artista", "Artista")
+                        .WithMany("Avaliacoes")
+                        .HasForeignKey("ArtistaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Artista");
+                });
+
             modelBuilder.Entity("ScreenSound.Modelos.Artista", b =>
                 {
+                    b.Navigation("Avaliacoes");
+
                     b.Navigation("Musicas");
                 });
 #pragma warning restore 612, 618
