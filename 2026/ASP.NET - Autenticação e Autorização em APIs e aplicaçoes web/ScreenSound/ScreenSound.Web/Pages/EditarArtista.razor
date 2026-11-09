@@ -13,38 +13,45 @@
         <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
 
             <MudTextField Class="mt-4" T="string" Placeholder="Nome do Artista"
-                          @bind-Value="Nome"
-                          Variant="Variant.Outlined"
-                          Required="true"
-                          RequiredError="Campo obrigatório." />
+            @bind-Value="Nome"
+            Variant="Variant.Outlined"
+            Required="true"
+            RequiredError="Campo obrigatório." />
 
             <MudTextField Class="mt-4" T="string" Placeholder="Biografia do artista"
-                          @bind-Value="Bio"
-                          Variant="Variant.Outlined"
-                          Lines="4"
-                          Required="true"
-                          RequiredError="Campo obrigatório." />
+            @bind-Value="Bio"
+            Variant="Variant.Outlined"
+            Lines="4"
+            Required="true"
+            RequiredError="Campo obrigatório." />
 
             <div class="d-flex align-center justify-space-between mt-4">
-                <MudButton Variant="Variant.Filled"
-                           Color="Color.Primary"
-                           Disabled="@(!success)"
-                           Class="ml-auto"
-                           @onclick="Editar">
-                    Salvar
-                </MudButton>
-                <MudButton Variant="Variant.Filled"
-                           Color="Color.Warning"
-                           Class="ml-3"
-                           @onclick="Deletar">
-                    Excluir
-                </MudButton>
-                <MudButton Variant="Variant.Filled"
-                           Color="Color.Info"
-                           Class="ml-3"
-                           @onclick="VoltarParaListagem">
-                    Voltar
-                </MudButton>
+
+                <MudRating @bind-SelectedValue="Classificacao"
+                @onclick="AvaliarArtista" />
+
+                <div>
+                    <MudButton Variant="Variant.Filled"
+                    Color="Color.Primary"
+                    Disabled="@(!success)"
+                    Class="ml-auto"
+                    @onclick="Editar">
+                        Salvar
+                    </MudButton>
+                    <MudButton Variant="Variant.Filled"
+                    Color="Color.Warning"
+                    Class="ml-3"
+                    @onclick="Deletar">
+                        Excluir
+                    </MudButton>
+                    <MudButton Variant="Variant.Filled"
+                    Color="Color.Info"
+                    Class="ml-3"
+                    @onclick="VoltarParaListagem">
+                        Voltar
+                    </MudButton>
+                </div>
+
             </div>
 
         </MudForm>
@@ -58,12 +65,15 @@ else
 
 
 @code {
+
     bool success;
     string[] errors = { };
     MudForm? form;
     public ArtistaResponse? Artista { get; set; }
     public string? Nome { get; set; } = string.Empty;
     public string? Bio { get; set; }=string.Empty;
+    public int Classificacao { get; set; }
+
     [Parameter]
     public string? NomeArtista { get; set; }
 
@@ -101,7 +111,6 @@ else
         {
             // Logger.LogInformation("Erro ao cadastrar artista!");
         }
-
     }
 
     private async Task Deletar()
@@ -116,6 +125,10 @@ else
         {
             // Logger.LogInformation("Erro ao cadastrar artista!");
         }
+    }
 
+    private async Task AvaliarArtista()
+    {
+        await artistaAPI.AvaliaArtistaAsync(Artista!.Id, Classificacao);
     }
 }
